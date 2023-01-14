@@ -46,12 +46,12 @@
     <!-- Top navbar -->
     <nav id=mainNav class="navbar sticky-top navbar-expand-lg navbar-dark font-weight-bold text-uppercase "
         style="background-color:whitesmoke;"><!-- color feaf4f-->
-        <button class="navbar-toggler navbar-dark border-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon navbar-dark text-dark"></span>
         </button>
-        <a class="navbar-brand text-dark ml-5" style="padding-left:5%;" href="#contact">Dhillon Insurance</a>
-        <div class="collapse navbar-collapse navbar-white mr-5" id="navbarTogglerDemo03" style="padding-right:5%;">
+        <a class="navbar-brand text-dark " style="padding-left:20%;" href="#contact">Dhillon Ins.</a>
+        <div class="collapse navbar-collapse navbar-white " id="navbarTogglerDemo03" style="padding-right:20%;">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1 active" data-toggle="collapse" data-target="#navbarTogglerDemo03">
                     <a class="nav-link py-3 px-0 px-lg-3 rounded text-dark" href="#about">About</a>
@@ -71,8 +71,8 @@
         &nbsp;&nbsp;
         <div class="row">
             <div class="col-md-7 p-lg-5">
-                <h2><b>Do you have questions about about health insurance ? </b></h2>
-                <p>Get Free insurance advice/consulattions from experienced insurance advisors over the phone</p>
+                <h2><b>Do you have questions about about Health Insurance?</b></h2>
+                <p>Get <b>Free</b> insurance advice from experienced insurance advisors over the phone</p>
             </div>
             <div class="col-md-5 p-lg-5">
                 <img src="./images/covered.jpg" class="img-fluid rounded-circle ">
@@ -87,7 +87,7 @@
         <div class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center">
             <h2
                 class="page-section-heading text-dark text-center text-uppercase text-secondary mb-0 font-weight-bold rounded text-uppercase">
-                Policies</h2>
+                Popular Policies</h2>
             <div class="divider-custom divider-dark justify-center">
                 <div class="row justify-content-center">
                     <div class="divider-custom-line" style=""><i class="fas fa-grip-lines" style="color: black"></i>
@@ -125,7 +125,7 @@
                         <div class="card-block">
                             <h4 class="card-title text-center">Your trusted health partner</h4>
                             <p class="card-text text-center ">At home or abroad</p>
-                            <p class="card-text"><small class="text-muted"></br> </br> Last updated 3 mins ago</small>
+                            <p class="card-text"><small class="text-muted"></br> </br> Last updated 7 mins ago</small>
                             </p>
                         </div>
                     </div>
@@ -188,13 +188,11 @@
     </div>
 
     <!-- Contact Me section -->
-    <div id="contact" class="text-secondary" style="background-color:#fccc8e">&nbsp;</div>
+    <div id="contact" class="text-secondary" style="background-color:#fccc8e"></div>
     <header class="masthead text-center" style="background-color:#fccc8e">
         <div class="container d-flex p-md-0 flex-column mb-0 pb-0">
             <div class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center">
-                <h2
-                    class="page-section-heading text-center text-uppercase text-dark mb-0 font-weight-bold rounded text-uppercase">
-                    Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-dark mb-0 font-weight-bold rounded text-uppercase"> Contact Me</h2>
                 <div class="divider-custom divider-dark justify-center">
                     <div class="row justify-content-center">
                         <div class="divider-custom-line" style=""><i class="fas fa-grip-lines" style="color: black"></i>
@@ -226,7 +224,7 @@
                 <form class="contact-form col-md-12 p-md-3 mx-auto mb-3 bg-light text-dark"
                     action="https://formspree.io/f/mnqyqzok" method="POST">
                     <p>
-                        <b>Call us at @9415000000 </b><br> <span class="text-muted"> or leave your contact details below and we'll contact you as soon as an advisor is avaiable ! </span>
+                        <b>Reach us at @9415000000 / xxx@gmail.com </b><br> <span class="text-muted"> or leave your details and an advisor will contact you! </span>
                     </p>
                     <div class="form-group">
                         <input type="name" class="form-control" placeholder="Name" name="name" required />
@@ -235,8 +233,11 @@
                         <input type="email" class="form-control" placeholder="Email" name="name" required />
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" type="text" placeholder="Message" rows="2" name="name"
-                            required></textarea>
+                        <input type="phone" class="form-control" placeholder="Phone #" name="name" required />
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" type="text" placeholder="Any additional details (preferred time for call , etc. ) " rows="2" name="name"
+                            ></textarea>
                     </div>
                     <div class="form-group row justify-content-center">
                         <button type="submit" class="btn btn-submit btn-info mx-3 m-md-1 " style="background-color:#885200;">
@@ -250,7 +251,7 @@
 
     <!-- Main picture carousel-->
     <div id="myCarousel" class="carousel slide" data-ride="carousel"
-        style="background: black; width: auto; margin: auto;">
+        style="background: rgb(0, 0, 0); width: auto; margin: auto;">
         <!-- Carousel indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -270,20 +271,21 @@
             </div>
         </div>
         <!-- Carousel controls -->
-        <a class="carousel-control-prev" href="#about" data-target="#myCarousel" data-slide="prev" style="outline: black;
-         background-color: rgba(0, 0, 0, 0.3); border: 1px solid black;">
-            <span class="carousel-control-prev-icon" style="color: black;"></span>
+        <a class="carousel-control-prev" href="#myCarousel" data-target="#myCarousel" data-slide="prev" style="outline: black;
+         background-color: rgba(255, 184, 122, 0.3); border: 1px solid rgb(252, 221, 202);">
+            <span class="carousel-control-prev-icon" style="color: rgb(252, 221, 202);"></span>
         </a>
-        <a class="carousel-control-next" href="#about" data-target="#myCarousel" data-slide="next" style="outline: black;
-         background-color: rgba(0, 0, 0, 0.3); border: 1px solid black;">
-            <span class="carousel-control-next-icon" style="color: black;"></span>
+        <a class="carousel-control-next" href="#myCarousel" data-target="#myCarousel" data-slide="next" style="outline: black;
+         background-color: rgba(255, 184, 122, 0.3); border: 1px solid rgb(252, 221, 202);">
+            <span class="carousel-control-next-icon" style="color: rgb(252, 221, 202);"></span>
         </a>
     </div>
 
 
     <!-- Footer section -->
-    <div class="copyright py-4 text-center text-dark" style="background-color:#whitesmoke">
-        <div class="container"><small>Copyright ©2020 Vikram Dhillon : Image by prostooleh on Freepik</small></div>
+    <div class="copyright py-4 text-center text-dark text-muted" style="background-color:whitesmoke">
+        <div class="container"><small>Copyright ©2020 Dhillon Ins. : Image by prostooleh on Freepik</small></div>
+        <div class="container"><small>ICICI Lomabrd Copyright ©2020 </small></div>
     </div>
 </body>
 
