@@ -18,8 +18,10 @@ input[type='checkbox'] {
   display: grid;
   perspective: 700px;
 }
+
 .custom-toggler.navbar-toggler {
   border-color: rgb(230, 110, 5);
+  color: rgb(230, 110, 5);
 } 
 
 .custom-toggler .navbar-toggler-icon {
